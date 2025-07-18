@@ -1,0 +1,210 @@
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #cccccc;
+        }
+
+        header {
+            width: 100%;
+            display: flex;
+            padding: 5px;
+            transition: all 0.3s ease;
+        }
+
+        footer p   {
+            color: #424242;
+        }
+
+        p   {
+            color: #000000;
+        }
+        header nav {
+            display: flex;
+            align-items: center;
+        }
+        header nav a {
+            background: transparent;
+            color: #b9b9bd;
+            font-weight: 700;
+            text-decoration: none;
+            position: relative;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        header nav a:hover {
+            color: #0b00a5;
+        }       
+
+        footer {
+            width: 100%;
+            text-align: center;
+        }
+        section {
+            max-width: 600px;
+            margin: 45px auto;
+            background: #fff;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            text-align: center;
+        }
+        .spacer {
+            padding: 0px 630px;
+        }
+
+        .logo img {
+            max-width: 150px;
+            padding-top: 4px;
+            height: auto;
+        }
+
+        .versao {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+            z-index: 999;
+        }
+
+        .logo img:hover {
+            transform: scale(1.03);
+        }
+        h2 {
+            text-align: center;
+            color: rgb(0, 44, 90);
+            margin-bottom: 12px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="text"],
+        input[type="password"],
+        textarea  {
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px;
+            border: none;
+            font-size: 16px;
+            display: inline-block;
+            font-size: 1.1em;
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(135deg, #002c5a, #004080);
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0, 44, 90, 0.4);
+            transition: transform 0.2s ease, background 0.3s ease;
+        }
+        button:hover {
+            background: linear-gradient(135deg, #001a33, #003366);
+            transform: scale(1.03);
+        }
+        .resultado {
+            margin-top: 25px;
+            padding: 20px;
+            background: #f1f5f9;
+            border-left: 5px solid rgb(0, 44, 90);
+            border-radius: 6px;
+        }
+        .mensagem {
+            margin-top: 25px;
+            color: red;
+            text-align: center;
+            font-weight: bold;
+        }
+        .detalhe {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        .detalhe strong {
+            color: rgb(0, 44, 90);
+        }
+
+        .btn-delete {
+            padding: 12px;
+            border: none;
+            font-size: 16px;
+            display: inline-block;
+            font-size: 1.1em;
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(135deg, #6d0012, #aa0000);
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(168, 0, 0, 0.295);
+            transition: transform 0.2s ease, background 0.3s ease;
+        }
+
+        .btn-delete:hover {
+            background: linear-gradient(135deg, #880000, #ad0009);
+            transform: scale(1.03);
+        }
+        .admin-panel {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 35px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(8px);
+            border-radius: 16px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .admin-panel h1 {
+            font-size: 2.5em;
+            color: #002c5a;
+            margin-bottom: 15px;
+        }
+
+        .admin-panel p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .admin-panel ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .admin-panel li {
+            margin: 15px 0;
+        }
+
+        .admin-panel a {
+            display: inline-block;
+            width: 80%;
+            padding: 15px 20px;
+            font-size: 1.1em;
+            text-decoration: none;
+            color: #fff;
+            background: linear-gradient(135deg, #002c5a, #004080);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 44, 90, 0.4);
+            transition: transform 0.2s ease, background 0.3s ease;
+        }
+
+        .admin-panel a:hover {
+            background: linear-gradient(135deg, #001a33, #003366);
+            transform: scale(1.03);
+        }
+
+        .admin-panel a:active {
+            transform: scale(0.98);
+            background: linear-gradient(135deg, #004080, #001a33);
+        }
+
+        .admin-panel a::before {
+            content: "🡆";
+            margin-right: 10px;
+        }
